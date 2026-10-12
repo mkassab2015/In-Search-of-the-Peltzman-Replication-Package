@@ -1,0 +1,31 @@
+{
+ "n_rows": 1678508,
+ "n_repos": 27554,
+ "filled_zero_share": 0.17136290086195596,
+ "pre_trend_max_abs_z": 2.0977826735943914,
+ "pre_trend_mean": -0.004882136489576591,
+ "primary_mde": 0.01439309263614026,
+ "primary_mde_sd": 0.025118858780814768,
+ "n_bad_placebo": 5,
+ "outcomes": [
+  "o1_reviewers_per_pr",
+  "o2_comments_per_pr",
+  "o2b_reviews_per_pr",
+  "o3_review_coverage",
+  "o3b_changes_req_rate",
+  "o4_churn_per_merged",
+  "o5_self_merge_rate",
+  "o6_direct_push_share"
+ ],
+ "treatments": [
+  "A",
+  "T1_test",
+  "T2_lint",
+  "T3_coverage",
+  "T4_types",
+  "T6_mergequeue",
+  "C1_codeowners",
+  "T5_depbot",
+  "T7_precommit"
+ ]
+}

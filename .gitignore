@@ -1,0 +1,14 @@
+# Raw and derived data are not redistributed; see data/README.md
+data/raw/
+data/derived/
+*.parquet
+*.csv.gz
+# Run-local job shards. The held-out validation key is NOT run-local and must
+# be deposited; see MISSING.md.
+state/*.json
+!state/nb7_validation_key.json
+state/*.parquet
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store

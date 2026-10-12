@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Replication package for the MSR 2027 submission. Anonymized for double-anonymous review."
+title: "In Search of the Peltzman Effect in Code Review: What Survives Standard Robustness Checks (replication package)"
+authors:
+  - name: "Anonymous (double-anonymous review)"
+version: "1.1.0"
+date-released: "2026-10-11"
+license: MIT

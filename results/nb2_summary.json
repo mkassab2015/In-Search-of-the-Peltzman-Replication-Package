@@ -1,0 +1,31 @@
+{
+ "seed": 20261005,
+ "n_sample": 3000,
+ "n_scanned": 2995,
+ "n_failures": 5,
+ "adopters": {
+  "C1_codeowners": 212,
+  "T5_depbot": 792,
+  "T7_precommit": 183
+ },
+ "by_arm": {
+  "C1_codeowners": {
+   "treated": 145,
+   "control": 67
+  },
+  "T5_depbot": {
+   "treated": 554,
+   "control": 238
+  },
+  "T7_precommit": {
+   "treated": 147,
+   "control": 36
+  }
+ },
+ "dropped_young": 306,
+ "dropped_window": 330,
+ "window": [
+  "2019-07",
+  "2025-06"
+ ]
+}

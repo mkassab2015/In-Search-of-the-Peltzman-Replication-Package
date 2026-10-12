@@ -1,0 +1,24 @@
+{
+ "n_rows": 1390874,
+ "n_repos": 33728,
+ "n_months": 72,
+ "window": [
+  "2019-07",
+  "2025-06"
+ ],
+ "totals": {
+  "prs_opened": 14981280,
+  "prs_merged": 12067389,
+  "reviews": 24581710,
+  "review_comments": 19343613,
+  "approvals": 9368633,
+  "changes_req": 1453829,
+  "self_merged": 5054046,
+  "merged_attributable": 12065149,
+  "pushes_default": 18043481,
+  "churn_merged": 11929249954
+ },
+ "panel_failures": 0,
+ "latency_failures": 504,
+ "latency_rows": 29613
+}

@@ -1,0 +1,9 @@
+outcome,label,att,se,t,n_cells,n_placebo_treated,n_control,significant
+o3_review_coverage,Review coverage,,,,0,8790,0,False
+o5_self_merge_rate,Self-merge rate,,,,0,8790,0,False
+o6_direct_push_share,Direct-push share,,,,0,8790,0,False
+o2_comments_per_pr,Comments per PR,,,,0,8790,0,False
+o1_reviewers_per_pr,Reviewers per PR,,,,0,8790,0,False
+o3b_changes_req_rate,Changes-requested rate,,,,0,8790,0,False
+o4_churn_per_merged,Change size,,,,0,8790,0,False
+o2b_reviews_per_pr,Reviews per PR,,,,0,8790,0,False

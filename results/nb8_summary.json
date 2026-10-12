@@ -1,0 +1,614 @@
+{
+  "nb": "NB8",
+  "seed": 20260101,
+  "n_boot": 500,
+  "min_cell": 10,
+  "estimator": "cs_did.py",
+  "reconciled_against_nb5": true,
+  "recon_max_att_dev_in_se": 0.5277620872346508,
+  "recon_max_se_rel_dev": 0.0829172224444702,
+  "results_are": "comparative; not byte-identical to the NB5 pipeline",
+  "reconciliation": [
+    {
+      "outcome": "o3_review_coverage",
+      "att": 0.02459990420437879,
+      "se": 0.003384194082427427,
+      "n_cells": 1475,
+      "ref_att": 0.0234123,
+      "ref_se": 0.003362,
+      "att_dev_in_se": 0.3532433683458626,
+      "se_rel_dev": 0.006601452238972928,
+      "pass": true
+    },
+    {
+      "outcome": "o5_self_merge_rate",
+      "att": 0.01879037169441882,
+      "se": 0.0037721227369495207,
+      "n_cells": 1475,
+      "ref_att": 0.0207347,
+      "ref_se": 0.0036841,
+      "att_dev_in_se": 0.5277620872346508,
+      "se_rel_dev": 0.023892602521516954,
+      "pass": true
+    },
+    {
+      "outcome": "o6_direct_push_share",
+      "att": 0.007803547266876246,
+      "se": 0.0018959769343183024,
+      "n_cells": 1475,
+      "ref_att": 0.0082576,
+      "ref_se": 0.0020674,
+      "att_dev_in_se": 0.21962500392945455,
+      "se_rel_dev": 0.0829172224444702,
+      "pass": true
+    },
+    {
+      "outcome": "o2_comments_per_pr",
+      "att": -0.1325671069221038,
+      "se": 0.03621768711920335,
+      "n_cells": 1475,
+      "ref_att": -0.131404,
+      "ref_se": 0.0390887,
+      "att_dev_in_se": 0.029755579543546015,
+      "se_rel_dev": 0.07344866625896104,
+      "pass": true
+    }
+  ],
+  "era_split": "2022-06",
+  "window_start": "2019-07",
+  "r1_placebo": {
+    "arms": [
+      "precommit"
+    ],
+    "n_null": 8,
+    "n_rows": 8,
+    "significant": [],
+    "rows": [
+      {
+        "arm": "precommit",
+        "outcome": "o3_review_coverage",
+        "label": "Review coverage",
+        "att": NaN,
+        "se": NaN,
+        "t": NaN,
+        "n_cells": 0,
+        "n_placebo_treated": 27,
+        "n_control": 13508,
+        "note": "",
+        "significant": false
+      },
+      {
+        "arm": "precommit",
+        "outcome": "o5_self_merge_rate",
+        "label": "Self-merge rate",
+        "att": NaN,
+        "se": NaN,
+        "t": NaN,
+        "n_cells": 0,
+        "n_placebo_treated": 27,
+        "n_control": 13508,
+        "note": "",
+        "significant": false
+      },
+      {
+        "arm": "precommit",
+        "outcome": "o6_direct_push_share",
+        "label": "Direct-push share",
+        "att": NaN,
+        "se": NaN,
+        "t": NaN,
+        "n_cells": 0,
+        "n_placebo_treated": 27,
+        "n_control": 13508,
+        "note": "",
+        "significant": false
+      },
+      {
+        "arm": "precommit",
+        "outcome": "o2_comments_per_pr",
+        "label": "Comments per PR",
+        "att": NaN,
+        "se": NaN,
+        "t": NaN,
+        "n_cells": 0,
+        "n_placebo_treated": 27,
+        "n_control": 13508,
+        "note": "",
+        "significant": false
+      },
+      {
+        "arm": "precommit",
+        "outcome": "o1_reviewers_per_pr",
+        "label": "Reviewers per PR",
+        "att": NaN,
+        "se": NaN,
+        "t": NaN,
+        "n_cells": 0,
+        "n_placebo_treated": 27,
+        "n_control": 13508,
+        "note": "",
+        "significant": false
+      },
+      {
+        "arm": "precommit",
+        "outcome": "o3b_changes_req_rate",
+        "label": "Changes-requested rate",
+        "att": NaN,
+        "se": NaN,
+        "t": NaN,
+        "n_cells": 0,
+        "n_placebo_treated": 27,
+        "n_control": 13508,
+        "note": "",
+        "significant": false
+      },
+      {
+        "arm": "precommit",
+        "outcome": "o4_churn_per_merged",
+        "label": "Change size",
+        "att": NaN,
+        "se": NaN,
+        "t": NaN,
+        "n_cells": 0,
+        "n_placebo_treated": 27,
+        "n_control": 13508,
+        "note": "",
+        "significant": false
+      },
+      {
+        "arm": "precommit",
+        "outcome": "o2b_reviews_per_pr",
+        "label": "Reviews per PR",
+        "att": NaN,
+        "se": NaN,
+        "t": NaN,
+        "n_cells": 0,
+        "n_placebo_treated": 27,
+        "n_control": 13508,
+        "note": "",
+        "significant": false
+      }
+    ]
+  },
+  "r2_pretrends": [
+    {
+      "outcome": "o1_reviewers_per_pr",
+      "label": "Reviewers per PR",
+      "k": 11,
+      "max_abs_z": 1.5064406977665736,
+      "crit": 2.8199943092378312,
+      "reject": false
+    },
+    {
+      "outcome": "o2_comments_per_pr",
+      "label": "Comments per PR",
+      "k": 11,
+      "max_abs_z": 4.3385361277900705,
+      "crit": 2.8085827071942076,
+      "reject": true
+    },
+    {
+      "outcome": "o3_review_coverage",
+      "label": "Review coverage",
+      "k": 11,
+      "max_abs_z": 6.8420944108171975,
+      "crit": 2.8340780328834803,
+      "reject": true
+    },
+    {
+      "outcome": "o5_self_merge_rate",
+      "label": "Self-merge rate",
+      "k": 11,
+      "max_abs_z": 2.2522374150932993,
+      "crit": 2.7745479863241025,
+      "reject": false
+    },
+    {
+      "outcome": "o6_direct_push_share",
+      "label": "Direct-push share",
+      "k": 11,
+      "max_abs_z": 3.3615004644126962,
+      "crit": 2.7863770383178244,
+      "reject": true
+    }
+  ],
+  "r3_era": [
+    {
+      "outcome": "o3_review_coverage",
+      "label": "Review coverage",
+      "era": "pre_2022_06",
+      "n_cohorts": 34,
+      "att": 0.03132212334354725,
+      "se": 0.004135359572551898,
+      "t": 7.574220039158193,
+      "n_cells": 850
+    },
+    {
+      "outcome": "o3_review_coverage",
+      "label": "Review coverage",
+      "era": "post_2022_06",
+      "n_cohorts": 37,
+      "att": 0.010550298601671447,
+      "se": 0.005770470085835064,
+      "t": 1.8283256727332429,
+      "n_cells": 625
+    },
+    {
+      "outcome": "o3_review_coverage",
+      "label": "Review coverage",
+      "era": "all",
+      "n_cohorts": 71,
+      "att": 0.02459990420437879,
+      "se": 0.003384194082427427,
+      "t": 7.269058335665454,
+      "n_cells": 1475
+    },
+    {
+      "outcome": "o5_self_merge_rate",
+      "label": "Self-merge rate",
+      "era": "pre_2022_06",
+      "n_cohorts": 34,
+      "att": 0.020092116739465336,
+      "se": 0.004796352648821669,
+      "t": 4.189040758794375,
+      "n_cells": 850
+    },
+    {
+      "outcome": "o5_self_merge_rate",
+      "label": "Self-merge rate",
+      "era": "post_2022_06",
+      "n_cohorts": 37,
+      "att": 0.01612964101526018,
+      "se": 0.005620914890022763,
+      "t": 2.869575741822851,
+      "n_cells": 625
+    },
+    {
+      "outcome": "o5_self_merge_rate",
+      "label": "Self-merge rate",
+      "era": "all",
+      "n_cohorts": 71,
+      "att": 0.01879037169441882,
+      "se": 0.0037721227369495207,
+      "t": 4.981378657263527,
+      "n_cells": 1475
+    },
+    {
+      "outcome": "o6_direct_push_share",
+      "label": "Direct-push share",
+      "era": "pre_2022_06",
+      "n_cohorts": 34,
+      "att": 0.01409992631103384,
+      "se": 0.0023757987096485094,
+      "t": 5.934815207101392,
+      "n_cells": 850
+    },
+    {
+      "outcome": "o6_direct_push_share",
+      "label": "Direct-push share",
+      "era": "post_2022_06",
+      "n_cohorts": 37,
+      "att": -0.00495452092200534,
+      "se": 0.0035100210037632964,
+      "t": -1.4115359756233115,
+      "n_cells": 625
+    },
+    {
+      "outcome": "o6_direct_push_share",
+      "label": "Direct-push share",
+      "era": "all",
+      "n_cohorts": 71,
+      "att": 0.007803547266876246,
+      "se": 0.0018959769343183024,
+      "t": 4.115845043063252,
+      "n_cells": 1475
+    },
+    {
+      "outcome": "o2_comments_per_pr",
+      "label": "Comments per PR",
+      "era": "pre_2022_06",
+      "n_cohorts": 34,
+      "att": -0.11975618574609057,
+      "se": 0.04455029396182602,
+      "t": -2.6881121334172677,
+      "n_cells": 850
+    },
+    {
+      "outcome": "o2_comments_per_pr",
+      "label": "Comments per PR",
+      "era": "post_2022_06",
+      "n_cohorts": 37,
+      "att": -0.15934225158848497,
+      "se": 0.0685870417832767,
+      "t": -2.3232121906056133,
+      "n_cells": 625
+    },
+    {
+      "outcome": "o2_comments_per_pr",
+      "label": "Comments per PR",
+      "era": "all",
+      "n_cohorts": 71,
+      "att": -0.1325671069221038,
+      "se": 0.03621768711920335,
+      "t": -3.6602863812309554,
+      "n_cells": 1475
+    },
+    {
+      "outcome": "o1_reviewers_per_pr",
+      "label": "Reviewers per PR",
+      "era": "pre_2022_06",
+      "n_cohorts": 34,
+      "att": 0.010072948814280867,
+      "se": 0.006432119236648498,
+      "t": 1.5660388813826545,
+      "n_cells": 850
+    },
+    {
+      "outcome": "o1_reviewers_per_pr",
+      "label": "Reviewers per PR",
+      "era": "post_2022_06",
+      "n_cohorts": 37,
+      "att": -0.003817577496251971,
+      "se": 0.010467969042765249,
+      "t": -0.36469132461663345,
+      "n_cells": 625
+    },
+    {
+      "outcome": "o1_reviewers_per_pr",
+      "label": "Reviewers per PR",
+      "era": "all",
+      "n_cohorts": 71,
+      "att": 0.005577669127583797,
+      "se": 0.005374148020519965,
+      "t": 1.037870394765223,
+      "n_cells": 1475
+    },
+    {
+      "outcome": "o3b_changes_req_rate",
+      "label": "Changes-requested rate",
+      "era": "pre_2022_06",
+      "n_cohorts": 34,
+      "att": -0.009269530954636725,
+      "se": 0.006665297234999123,
+      "t": -1.3907153166347794,
+      "n_cells": 850
+    },
+    {
+      "outcome": "o3b_changes_req_rate",
+      "label": "Changes-requested rate",
+      "era": "post_2022_06",
+      "n_cohorts": 37,
+      "att": 0.000540592821944036,
+      "se": 0.006571022711075451,
+      "t": 0.08226920613633969,
+      "n_cells": 625
+    },
+    {
+      "outcome": "o3b_changes_req_rate",
+      "label": "Changes-requested rate",
+      "era": "all",
+      "n_cohorts": 71,
+      "att": -0.0060947592324588394,
+      "se": 0.0048428640044544955,
+      "t": -1.2585030731511029,
+      "n_cells": 1475
+    },
+    {
+      "outcome": "o4_churn_per_merged",
+      "label": "Change size",
+      "era": "pre_2022_06",
+      "n_cohorts": 34,
+      "att": -0.038053518607181626,
+      "se": 0.025963557312074267,
+      "t": -1.465651187539119,
+      "n_cells": 850
+    },
+    {
+      "outcome": "o4_churn_per_merged",
+      "label": "Change size",
+      "era": "post_2022_06",
+      "n_cohorts": 37,
+      "att": 0.009467570795382898,
+      "se": 0.03163618619460826,
+      "t": 0.2992639737654741,
+      "n_cells": 625
+    },
+    {
+      "outcome": "o4_churn_per_merged",
+      "label": "Change size",
+      "era": "all",
+      "n_cohorts": 71,
+      "att": -0.02235058123983386,
+      "se": 0.020066476382172915,
+      "t": -1.1138269028482821,
+      "n_cells": 1475
+    },
+    {
+      "outcome": "o2b_reviews_per_pr",
+      "label": "Reviews per PR",
+      "era": "pre_2022_06",
+      "n_cohorts": 34,
+      "att": 0.07335268612000972,
+      "se": 0.04799035851105642,
+      "t": 1.5284879795826096,
+      "n_cells": 850
+    },
+    {
+      "outcome": "o2b_reviews_per_pr",
+      "label": "Reviews per PR",
+      "era": "post_2022_06",
+      "n_cohorts": 37,
+      "att": -0.1271554351189595,
+      "se": 0.09665793389194782,
+      "t": -1.3155198957708354,
+      "n_cells": 625
+    },
+    {
+      "outcome": "o2b_reviews_per_pr",
+      "label": "Reviews per PR",
+      "era": "all",
+      "n_cohorts": 71,
+      "att": 0.008463850069220935,
+      "se": 0.04429366175488798,
+      "t": 0.19108490320936078,
+      "n_cells": 1475
+    }
+  ],
+  "r3_era_diff": [
+    {
+      "outcome": "o3_review_coverage",
+      "label": "Review coverage",
+      "diff_post_minus_pre": -0.020771824741875798,
+      "se": 0.007099262201511784,
+      "t": -2.92591316566001,
+      "differs": true
+    },
+    {
+      "outcome": "o5_self_merge_rate",
+      "label": "Self-merge rate",
+      "diff_post_minus_pre": -0.003962475724205158,
+      "se": 0.00738915982590296,
+      "t": -0.5362552465456979,
+      "differs": false
+    },
+    {
+      "outcome": "o6_direct_push_share",
+      "label": "Direct-push share",
+      "diff_post_minus_pre": -0.01905444723303918,
+      "se": 0.004238474602451573,
+      "t": -4.495590753809852,
+      "differs": true
+    },
+    {
+      "outcome": "o2_comments_per_pr",
+      "label": "Comments per PR",
+      "diff_post_minus_pre": -0.03958606584239441,
+      "se": 0.08178576277486233,
+      "t": -0.4840214787916801,
+      "differs": false
+    },
+    {
+      "outcome": "o1_reviewers_per_pr",
+      "label": "Reviewers per PR",
+      "diff_post_minus_pre": -0.013890526310532838,
+      "se": 0.012286192809603603,
+      "t": -1.1305801989103732,
+      "differs": false
+    },
+    {
+      "outcome": "o3b_changes_req_rate",
+      "label": "Changes-requested rate",
+      "diff_post_minus_pre": 0.009810123776580762,
+      "se": 0.009359728986480128,
+      "t": 1.0481204948082596,
+      "differs": false
+    },
+    {
+      "outcome": "o4_churn_per_merged",
+      "label": "Change size",
+      "diff_post_minus_pre": 0.047521089402564526,
+      "se": 0.04092620902596877,
+      "t": 1.1611407587839648,
+      "differs": false
+    },
+    {
+      "outcome": "o2b_reviews_per_pr",
+      "label": "Reviews per PR",
+      "diff_post_minus_pre": -0.20050812123896922,
+      "se": 0.10791585006049798,
+      "t": -1.8580043721711288,
+      "differs": false
+    }
+  ],
+  "r4_no_month0": [
+    {
+      "outcome": "o3_review_coverage",
+      "label": "Review coverage",
+      "att_all": 0.02459990420437879,
+      "se_all": 0.003384194082427427,
+      "att_no_m0": 0.02446548656948039,
+      "se_no_m0": 0.0034681903169853216,
+      "shift": -0.000134417634898399,
+      "shift_in_se": -0.039719245298716274,
+      "still_sig": true
+    },
+    {
+      "outcome": "o5_self_merge_rate",
+      "label": "Self-merge rate",
+      "att_all": 0.01879037169441882,
+      "se_all": 0.0037721227369495207,
+      "att_no_m0": 0.01618389754239564,
+      "se_no_m0": 0.0038545469339547234,
+      "shift": -0.0026064741520231798,
+      "shift_in_se": -0.6909833888732396,
+      "still_sig": true
+    },
+    {
+      "outcome": "o6_direct_push_share",
+      "label": "Direct-push share",
+      "att_all": 0.007803547266876246,
+      "se_all": 0.0018959769343183024,
+      "att_no_m0": 0.006726623393063394,
+      "se_no_m0": 0.001964709264224301,
+      "shift": -0.0010769238738128524,
+      "shift_in_se": -0.5680047337706985,
+      "still_sig": true
+    },
+    {
+      "outcome": "o2_comments_per_pr",
+      "label": "Comments per PR",
+      "att_all": -0.1325671069221038,
+      "se_all": 0.03621768711920335,
+      "att_no_m0": -0.1395295883071607,
+      "se_no_m0": 0.03651842229675432,
+      "shift": -0.006962481385056896,
+      "shift_in_se": -0.1922398126125853,
+      "still_sig": true
+    },
+    {
+      "outcome": "o1_reviewers_per_pr",
+      "label": "Reviewers per PR",
+      "att_all": 0.005577669127583797,
+      "se_all": 0.005374148020519965,
+      "att_no_m0": 0.008450798586068375,
+      "se_no_m0": 0.005459872757118961,
+      "shift": 0.002873129458484578,
+      "shift_in_se": 0.5346204547240204,
+      "still_sig": false
+    },
+    {
+      "outcome": "o3b_changes_req_rate",
+      "label": "Changes-requested rate",
+      "att_all": -0.0060947592324588394,
+      "se_all": 0.0048428640044544955,
+      "att_no_m0": -0.005956579533998883,
+      "se_no_m0": 0.004873797424122246,
+      "shift": 0.0001381796984599561,
+      "shift_in_se": 0.028532640671482326,
+      "still_sig": false
+    },
+    {
+      "outcome": "o4_churn_per_merged",
+      "label": "Change size",
+      "att_all": -0.02235058123983386,
+      "se_all": 0.020066476382172915,
+      "att_no_m0": -0.062283396609192854,
+      "se_no_m0": 0.020346111021775266,
+      "shift": -0.039932815369359,
+      "shift_in_se": -1.990026281088162,
+      "still_sig": true
+    },
+    {
+      "outcome": "o2b_reviews_per_pr",
+      "label": "Reviews per PR",
+      "att_all": 0.008463850069220935,
+      "se_all": 0.04429366175488798,
+      "att_no_m0": 0.007011884783474393,
+      "se_no_m0": 0.04561599232162516,
+      "shift": -0.0014519652857465414,
+      "shift_in_se": -0.032780430161349475,
+      "still_sig": false
+    }
+  ],
+  "r5_removal": "blocked: needs nb0_gate_monthly.parquet"
+}

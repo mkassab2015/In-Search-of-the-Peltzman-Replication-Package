@@ -1,0 +1,21 @@
+{
+ "n_files": 3734686,
+ "n_files_with_safeguard": 922443,
+ "n_repos_any": 30015,
+ "n_eligible": 20155,
+ "n_treatA": 20155,
+ "n_treatB_events": 4903,
+ "treatB_by_treatment": {
+  "T1_test": 953,
+  "T2_lint": 1432,
+  "T3_coverage": 1110,
+  "T6_mergequeue": 520,
+  "T4_types": 888
+ },
+ "bundling_3mo": 0.7170429289975436,
+ "n_never_treated": 34603,
+ "window": [
+  "2019-07",
+  "2025-06"
+ ]
+}

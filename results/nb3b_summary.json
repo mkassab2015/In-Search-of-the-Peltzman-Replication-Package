@@ -1,0 +1,32 @@
+{
+ "n_rows": 1390874,
+ "n_repos": 33728,
+ "n_months": 72,
+ "window": [
+  "2019-07",
+  "2025-06"
+ ],
+ "failures": 0,
+ "bot_share": {
+  "prs_opened": 0.23960682932299515,
+  "prs_merged": 0.21037732354530048,
+  "reviews": 0.04747049737386044,
+  "reviewers": 0.018452819037200308,
+  "prs_reviewed": 0.058259451714155586,
+  "review_comments": 0.025001275614850216,
+  "self_merged": 0.10817471783992472,
+  "pushes_default": 0.16852468766974615,
+  "churn_merged": 0.06308416236577086
+ },
+ "totals_human": {
+  "prs_opened_h": 11391663,
+  "prs_merged_h": 9528684,
+  "reviews_h": 23414804,
+  "reviewers_h": 2451259,
+  "prs_reviewed_h": 7442536,
+  "review_comments_h": 18859998,
+  "self_merged_h": 4507326,
+  "pushes_default_h": 15002709,
+  "churn_merged_h": 11176703213
+ }
+}
